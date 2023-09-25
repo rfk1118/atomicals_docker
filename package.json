@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "cli": "cross-env ELECTRUMX_WSS=wss://electrumx.atomicals.xyz:50012 node node_modules/atomicals/dist/cli.js"
+  },
+  "dependencies": {
+    "atomicals": "latest"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
